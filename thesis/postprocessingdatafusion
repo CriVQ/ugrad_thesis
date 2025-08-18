@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+import pandas as pd
+import numpy as np
+from scipy.spatial.transform import Rotation as R
+
+def fuse_orientation(imu_csv, cam_csv, out_csv, fps):
+    imu = pd.read_csv(imu_csv).rename(columns={'time':'time_s'})
+    cam = pd.read_csv(cam_csv)   # contains time_s, q_sho_x…q_sho_w
+
+    # 1) align timestamps
+    imu = imu.sort_values('time_s').reset_index(drop=True)
+    cam = cam.sort_values('time_s').reset_index(drop=True)
+    df = pd.merge_asof(cam, imu, on='time_s', tolerance=1/fps, direction='nearest')
+
+    # 2) for each row, compute relative quaternion IMU vs cam
+    out = []
+    for _, row in df.iterrows():
+        # camera shoulder orientation
+        q_sho = R.from_quat([row.q_sho_x, row.q_sho_y, row.q_sho_z, row.q_sho_w])
+        # IMU wrist orientation
+        q_wri = R.from_quat([row.qW_x,   row.qW_y,   row.qW_z,   row.qW_w  ])
+        # IMU‐estimated parent = IMU head orientation
+        q_head = R.from_quat([row.qH_x, row.qH_y, row.qH_z, row.qH_w])
+
+        # relative camera quaternion (shoulder→wrist) from camera 3D
+        # -- this you should compute in your Python pipeline & save as q_rel_cam_x…
+        q_rel_cam = R.from_quat([row.q_rel_cam_x, row.q_rel_cam_y, row.q_rel_cam_z, row.q_rel_cam_w])
+
+        # relative IMU quaternion
+        q_rel_imu = q_head.inv() * q_wri
+
+        # now you can blend or correct:
+        # e.g. complementary filter on quaternion components:
+        alpha = 0.98
+        q_rel_fused = R.slerp([0,1],[q_rel_imu, q_rel_cam], [alpha,1-alpha])[1]
+
+        # extract angles
+        # elbow twist about hinge axis (e.g. local X)
+        # shoulder swing decomposition as before…
+
+        out.append({
+            'time_s': row.time_s,
+            'elbow_cam':  row.true_elbow,
+            'elbow_imu':   2*np.degrees(np.arccos(np.clip(q_rel_imu.as_quat()[-1],-1,1))),
+            'elbow_fused': 2*np.degrees(np.arccos(np.clip(q_rel_fused.as_quat()[-1],-1,1))),
+            # and similarly for shoulder flex/abd…
+        })
+
+    pd.DataFrame(out).to_csv(out_csv, index=False)
+
+if __name__=='__main__':
+    import argparse
+    p = argparse.ArgumentParser()
+    p.add_argument('--imu_csv',  required=True)
+    p.add_argument('--cam_csv',  required=True)
+    p.add_argument('--out_csv',  required=True)
+    p.add_argument('--fps',      type=float, default=30)
+    args = p.parse_args()
+    fuse_orientation(args.imu_csv, args.cam_csv, args.out_csv, args.fps)
