@@ -1,0 +1,1262 @@
+fileFormatVersion: 2
+guid: 8caa1a0cef30d824cb6adf31c34bf2f0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: KnightsLPalm
+    100002: KnightsLForearm
+    100004: KnightsRibcage
+    100006: KnightsSpine3
+    100008: KnightsSpine2
+    100010: KnightsSpine1
+    100012: KnightsRDigit11
+    100014: KnightsRFoot
+    100016: KnightsRCalf
+    100018: KnightsRThigh
+    100020: KnightsLDigit11
+    100022: KnightsLFoot
+    100024: KnightsLCalf
+    100026: KnightsLThigh
+    100028: KnightsPelvis
+    100030: //RootNode
+    100032: KnightsRDigit11 1
+    100034: KnightsRUpperarm
+    100036: KnightsRCollarbone
+    100038: FH_Knight_shield
+    100040: KnightsLDigit11 1
+    100042: KnightsLUpperarm
+    100044: KnightsLCollarbone
+    100046: Knight_weapon
+    100048: KnightsRDigit22
+    100050: KnightsRDigit21
+    100052: KnightsHead
+    100054: KnightsLDigit22
+    100056: KnightsLDigit21
+    100058: FH_Knight_sword
+    100060: FH_Knight
+    100062: KnightsSword
+    100064: KnightsNeck
+    100066: Knight_polearm
+    100068: KnightsRPalm
+    100070: KnightsRForearm
+    100072: Knightsmouth
+    100074: FH_Guard_Pole Axe
+    100076: FH_Guard_sword_scabbard
+    100078: FH_Knight_axe
+    100080: FH_Knight_hammer
+    100082: FH_Knight_spear
+    100084: FH_Knight_sword_two hand
+    100086: helmet_01
+    100088: helmet_02
+    100090: helmet_03
+    100092: helmet_03_Front
+    400000: KnightsLPalm
+    400002: KnightsLForearm
+    400004: KnightsRibcage
+    400006: KnightsSpine3
+    400008: KnightsSpine2
+    400010: KnightsSpine1
+    400012: KnightsRDigit11
+    400014: KnightsRFoot
+    400016: KnightsRCalf
+    400018: KnightsRThigh
+    400020: KnightsLDigit11
+    400022: KnightsLFoot
+    400024: KnightsLCalf
+    400026: KnightsLThigh
+    400028: KnightsPelvis
+    400030: //RootNode
+    400032: KnightsRDigit11 1
+    400034: KnightsRUpperarm
+    400036: KnightsRCollarbone
+    400038: FH_Knight_shield
+    400040: KnightsLDigit11 1
+    400042: KnightsLUpperarm
+    400044: KnightsLCollarbone
+    400046: Knight_weapon
+    400048: KnightsRDigit22
+    400050: KnightsRDigit21
+    400052: KnightsHead
+    400054: KnightsLDigit22
+    400056: KnightsLDigit21
+    400058: FH_Knight_sword
+    400060: FH_Knight
+    400062: KnightsSword
+    400064: KnightsNeck
+    400066: Knight_polearm
+    400068: KnightsRPalm
+    400070: KnightsRForearm
+    400072: Knightsmouth
+    400074: FH_Guard_Pole Axe
+    400076: FH_Guard_sword_scabbard
+    400078: FH_Knight_axe
+    400080: FH_Knight_hammer
+    400082: FH_Knight_spear
+    400084: FH_Knight_sword_two hand
+    400086: helmet_01
+    400088: helmet_02
+    400090: helmet_03
+    400092: helmet_03_Front
+    2300000: FH_Knight_shield
+    2300002: FH_Knight_sword
+    2300004: FH_Guard_Pole Axe
+    2300006: FH_Guard_sword_scabbard
+    2300008: FH_Knight_axe
+    2300010: FH_Knight_hammer
+    2300012: FH_Knight_spear
+    2300014: FH_Knight_sword_two hand
+    2300016: helmet_01
+    2300018: helmet_02
+    2300020: helmet_03
+    2300022: helmet_03_Front
+    3300000: FH_Knight_shield
+    3300002: FH_Knight_sword
+    3300004: FH_Guard_Pole Axe
+    3300006: FH_Guard_sword_scabbard
+    3300008: FH_Knight_axe
+    3300010: FH_Knight_hammer
+    3300012: FH_Knight_spear
+    3300014: FH_Knight_sword_two hand
+    3300016: helmet_01
+    3300018: helmet_02
+    3300020: helmet_03
+    3300022: helmet_03_Front
+    4300000: FH_Knight_shield
+    4300002: FH_Knight_axe
+    4300004: FH_Knight
+    4300006: FH_Knight_sword
+    4300008: FH_Knight_hammer
+    4300010: FH_Knight_sword_two hand
+    4300012: FH_Guard_Pole Axe
+    4300014: FH_Knight_spear
+    4300016: helmet_02
+    4300018: helmet_01
+    4300020: helmet_03
+    4300022: helmet_03_Front
+    4300024: FH_Guard_sword_scabbard
+    7400000: Take 001
+    7400002: idle
+    7400004: idle break 1
+    7400006: idle break 2
+    7400008: salute
+    7400010: talk
+    7400012: crouch
+    7400014: die 1
+    7400016: die 2
+    7400018: idle to fight
+    7400020: fight idle
+    7400022: Fight idle break
+    7400024: hit
+    7400026: idle2
+    7400028: idle3
+    7400030: idle4
+    7400032: idle5
+    7400034: punch
+    7400036: attack1
+    7400038: attack2
+    7400040: attack3
+    7400042: special
+    7400044: block
+    7400046: jump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: FH_Knight
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'KnightsSpine3'
+      : rotation error = 4.313838 deg\n\t'KnightsRibcage' : rotation error = 1.691441
+      deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'KnightsSpine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'KnightsRibcage' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break 1
+      takeName: 
+      firstFrame: 80
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break 2
+      takeName: 
+      firstFrame: 120
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: salute
+      takeName: 
+      firstFrame: 170
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: talk
+      takeName: 
+      firstFrame: 190
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouch
+      takeName: 
+      firstFrame: 340
+      lastFrame: 365
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die 1
+      takeName: 
+      firstFrame: 370
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die 2
+      takeName: 
+      firstFrame: 450
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle to fight
+      takeName: 
+      firstFrame: 490
+      lastFrame: 510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fight idle
+      takeName: 
+      firstFrame: 510
+      lastFrame: 560
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fight idle break
+      takeName: 
+      firstFrame: 560
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit
+      takeName: 
+      firstFrame: 600
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: punch
+      takeName: 
+      firstFrame: 620
+      lastFrame: 645
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: 
+      firstFrame: 645
+      lastFrame: 670
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: 
+      firstFrame: 670
+      lastFrame: 695
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack3
+      takeName: 
+      firstFrame: 695
+      lastFrame: 725
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: special
+      takeName: 
+      firstFrame: 725
+      lastFrame: 765
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block
+      takeName: 
+      firstFrame: 765
+      lastFrame: 785
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: 
+      firstFrame: 805
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: KnightsPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: helmet_03_Front
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Knightsmouth
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLDigit21
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRDigit11 1
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRDigit21
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsRDigit22
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLDigit11 1
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: KnightsLDigit22
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FH_Knights@animations(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FH_Knight
+      parentName: 
+      position: {x: 0, y: 0, z: -0.00000003880887}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KnightsPelvis
+      parentName: 
+      position: {x: -0.0000000018626451, y: 0.93688726, z: -0.11269568}
+      rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
+      scale: {x: 1.0000005, y: 0.9999995, z: 1.0000007}
+    - name: KnightsSpine1
+      parentName: 
+      position: {x: -0.069777064, y: -0.005338688, z: -0.000000013709068}
+      rotation: {x: 0.00000043213367, y: 0.000000029802322, z: 0.14936347, w: -0.9887824}
+      scale: {x: 0.99999964, y: 0.99999976, z: 0.9999994}
+    - name: KnightsSpine2
+      parentName: 
+      position: {x: -0.20473228, y: 0, z: -5.9604643e-10}
+      rotation: {x: -0.00000032782555, y: -0.000000029802322, z: -0.1663298, w: -0.9860703}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.9999999}
+    - name: KnightsSpine3
+      parentName: 
+      position: {x: -0.17440444, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0.000000029802319, y: -0.000000014901159, z: 0.07564827, w: 0.99713457}
+      scale: {x: 0.9999991, y: 1, z: 0.99999887}
+    - name: KnightsRibcage
+      parentName: 
+      position: {x: -0.18741973, y: 0.000000014305114, z: -0.0000000011920929}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.09450579, w: -0.99552435}
+      scale: {x: 0.99999946, y: 0.9999991, z: 0.99999994}
+    - name: KnightsLCollarbone
+      parentName: 
+      position: {x: 0.02101181, y: 0.122867525, z: 0.056143902}
+      rotation: {x: -0.031854883, y: -0.7134706, z: -0.1916523, w: -0.673212}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000007}
+    - name: KnightsLUpperarm
+      parentName: 
+      position: {x: -0.17591049, y: 0, z: 0}
+      rotation: {x: 0.1401052, y: -0.0055363956, z: -0.1581146, w: 0.97741485}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000001}
+    - name: KnightsLForearm
+      parentName: 
+      position: {x: -0.26700515, y: 0, z: 0}
+      rotation: {x: 0.08285806, y: -0.0056651183, z: -0.02240188, w: 0.9962934}
+      scale: {x: 1.0000006, y: 0.99999946, z: 1.0000002}
+    - name: KnightsLPalm
+      parentName: 
+      position: {x: -0.21930999, y: -0.000000038146972, z: 0.000000076293944}
+      rotation: {x: -0.76061875, y: 0.04930343, z: 0.036455214, w: 0.6462966}
+      scale: {x: 0.99999887, y: 1.0000001, z: 1.0000002}
+    - name: FH_Knight_shield
+      parentName: 
+      position: {x: -0.19094406, y: 0.09885107, z: 0.009024811}
+      rotation: {x: -0.046929885, y: -0.08744254, z: 0.9766938, w: -0.19031714}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000007}
+    - name: KnightsLDigit11 1
+      parentName: 
+      position: {x: -0.09030071, y: -0.03273775, z: 0.057111435}
+      rotation: {x: 0.5374739, y: 0.3727421, z: 0.05285224, w: 0.75458056}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999999}
+    - name: KnightsLDigit21
+      parentName: 
+      position: {x: -0.15162943, y: 0.00013479232, z: -0.0057868958}
+      rotation: {x: -0.12581593, y: -0.031211728, z: -0.013387851, w: 0.9914722}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000001}
+    - name: KnightsLDigit22
+      parentName: 
+      position: {x: -0.06736135, y: 0.0000000047683715, z: -0.000000076293944}
+      rotation: {x: 0.0000029511266, y: 0.00000017881383, z: 0.21441346, w: 0.976743}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: KnightsNeck
+      parentName: 
+      position: {x: -0.021020355, y: 0.051551018, z: -0.000000023841856}
+      rotation: {x: -0.000000059604638, y: 0, z: -0.011181294, w: -0.99993753}
+      scale: {x: 1.0000011, y: 1.0000008, z: 1.0000006}
+    - name: KnightsHead
+      parentName: 
+      position: {x: -0.114150845, y: 0, z: 0}
+      rotation: {x: 0.000000014901159, y: 0.000000014901159, z: 0.011181279, w: -0.99993753}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: helmet_01
+      parentName: 
+      position: {x: 1.7002672, y: 0.051598966, z: 0.0000001335144}
+      rotation: {x: 0.7071068, y: 0.00000024892987, z: -0.7071068, w: 0.00000024892987}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: helmet_02
+      parentName: 
+      position: {x: 1.7002672, y: 0.051598962, z: 0.0000000023841857}
+      rotation: {x: 0.7071068, y: 0.00000024892987, z: -0.7071068, w: 0.00000024892987}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: helmet_03
+      parentName: 
+      position: {x: 1.7002672, y: 0.051598966, z: 0.00000010728836}
+      rotation: {x: 0.7071068, y: 0.0000002910767, z: -0.7071068, w: 0.0000002910767}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: helmet_03_Front
+      parentName: 
+      position: {x: -0.000000114440915, y: 0.00408277, z: 1.8064532}
+      rotation: {x: 0.00000054202974, y: 0.000000006519251, z: -0.0000000117288455,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Knightsmouth
+      parentName: 
+      position: {x: 0.013087005, y: 0.04818506, z: 0.00025484563}
+      rotation: {x: -0.000000011175868, y: -0.00000017881389, z: -0.81043273, w: 0.5858317}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1}
+    - name: KnightsRCollarbone
+      parentName: 
+      position: {x: 0.02101181, y: 0.1228675, z: -0.056143913}
+      rotation: {x: -0.03185477, y: -0.71347064, z: 0.19165222, w: 0.673212}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000012}
+    - name: KnightsRUpperarm
+      parentName: 
+      position: {x: -0.17591049, y: 0, z: 0}
+      rotation: {x: -0.1401054, y: 0.0055364864, z: -0.15811434, w: 0.97741485}
+      scale: {x: 1.0000008, y: 1, z: 1.0000005}
+    - name: KnightsRForearm
+      parentName: 
+      position: {x: -0.2670051, y: 0, z: 0}
+      rotation: {x: -0.08285781, y: 0.005664748, z: -0.02240202, w: 0.99629354}
+      scale: {x: 0.99999964, y: 1, z: 1.0000004}
+    - name: KnightsRPalm
+      parentName: 
+      position: {x: -0.21930999, y: -0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0.7606186, y: -0.049303386, z: 0.036455207, w: 0.6462967}
+      scale: {x: 0.99999946, y: 1.0000006, z: 0.99999964}
+    - name: Knight_polearm
+      parentName: 
+      position: {x: -0.11049179, y: -0.12268448, z: 0.31064874}
+      rotation: {x: 0.5983973, y: -0.5208935, z: 0.43819445, w: 0.42258278}
+      scale: {x: 1.0000011, y: 1.0000001, z: 0.99999976}
+    - name: FH_Guard_Pole Axe
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000119209204, y: 0.00000022770848, z: 0.00000058114534, w: 1}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999998}
+    - name: FH_Knight_spear
+      parentName: 
+      position: {x: 0.0000002670288, y: -0.00000030517577, z: 0}
+      rotation: {x: 0.000000268221, y: -0.000000012107206, z: -0.000000026077041,
+        w: 1}
+      scale: {x: 0.9999995, y: 0.9999997, z: 0.99999994}
+    - name: Knight_weapon
+      parentName: 
+      position: {x: -0.113536835, y: -0.023187675, z: -0.09055584}
+      rotation: {x: 0.49999988, y: -0.5000002, z: 0.49999988, w: 0.5000002}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: FH_Knight_axe
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000014901163, y: -0.00000002142042, z: 0.000000029802322,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: FH_Knight_hammer
+      parentName: 
+      position: {x: -0, y: 0.000000076293944, z: 0.000000076293944}
+      rotation: {x: 0.000000059604645, y: 0.00000011455266, z: 0.000000011175863,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: FH_Knight_sword
+      parentName: 
+      position: {x: -0.000000104904174, y: -0.000000076293944, z: 0.000000076293944}
+      rotation: {x: 0, y: -0.00000023469326, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: FH_Knight_sword_two hand
+      parentName: 
+      position: {x: -0.0000001335144, y: 0.000000076293944, z: 0.00000019073485}
+      rotation: {x: 0.000000029802203, y: -0.00000035297123, z: -0.00000032596284,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: KnightsRDigit11 1
+      parentName: 
+      position: {x: -0.09030067, y: -0.032737732, z: -0.05711151}
+      rotation: {x: -0.53747386, y: -0.37274197, z: 0.052852117, w: 0.7545807}
+      scale: {x: 0.9999995, y: 1.0000001, z: 1.000001}
+    - name: KnightsRDigit21
+      parentName: 
+      position: {x: -0.1516294, y: 0.0001348114, z: 0.005786905}
+      rotation: {x: 0.12581585, y: 0.031211685, z: -0.013388992, w: 0.99147207}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000005}
+    - name: KnightsRDigit22
+      parentName: 
+      position: {x: -0.067361295, y: 0, z: 0.000000019073486}
+      rotation: {x: -0.0000031217921, y: -0.00000019371502, z: 0.21441369, w: 0.9767429}
+      scale: {x: 0.9999988, y: 1.0000014, z: 1}
+    - name: KnightsLThigh
+      parentName: 
+      position: {x: -0.026286086, y: 0.07167038, z: 0.0944658}
+      rotation: {x: 0.008763105, y: 0.9990287, z: 0.0036322474, w: 0.043033123}
+      scale: {x: 0.99999934, y: 1.0000005, z: 0.999999}
+    - name: KnightsLCalf
+      parentName: 
+      position: {x: -0.45403084, y: 0.000000076293944, z: 0.000000019073486}
+      rotation: {x: 0.0007296651, y: -0.0013874172, z: 0.074365966, w: 0.99722975}
+      scale: {x: 0.9999998, y: 0.9999993, z: 0.99999976}
+    - name: KnightsLFoot
+      parentName: 
+      position: {x: -0.48137057, y: -0.000000009536743, z: 0}
+      rotation: {x: -0.07718867, y: -0.003026953, z: -0.7218216, w: 0.68775463}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: KnightsLDigit11
+      parentName: 
+      position: {x: -0.2275378, y: 0.015741233, z: 0.0000025367735}
+      rotation: {x: 0.000000013038516, y: 0.000000057688453, z: -0.054379083, w: 0.99852043}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+    - name: KnightsRThigh
+      parentName: 
+      position: {x: -0.026286086, y: 0.07167038, z: -0.09446583}
+      rotation: {x: 0.008763105, y: 0.9990287, z: -0.0036323965, w: -0.043033034}
+      scale: {x: 0.9999993, y: 1.0000004, z: 0.99999887}
+    - name: KnightsRCalf
+      parentName: 
+      position: {x: -0.45403078, y: 0.00000008106232, z: 0}
+      rotation: {x: -0.00072234863, y: 0.0013760923, z: 0.07434488, w: 0.99723136}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: KnightsRFoot
+      parentName: 
+      position: {x: -0.48137045, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.0771755, y: 0.0030319747, z: -0.721808, w: 0.68777037}
+      scale: {x: 0.99999946, y: 0.9999997, z: 1}
+    - name: KnightsRDigit11
+      parentName: 
+      position: {x: -0.2275378, y: 0.015741229, z: -0.0000025749207}
+      rotation: {x: -0.000000013038516, y: -0.000000032319857, z: -0.054379098, w: 0.99852043}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000004}
+    - name: KnightsSword
+      parentName: 
+      position: {x: -0.047759015, y: 0.17607118, z: -0.18499838}
+      rotation: {x: -0.000000029802322, y: 0.0000001937151, z: 0.8510575, w: 0.5250725}
+      scale: {x: 1, y: 0.9999993, z: 0.99999964}
+    - name: FH_Guard_sword_scabbard
+      parentName: 
+      position: {x: -0, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.000000006446499, y: -0.00000009339419, z: 0.000000014901161,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
