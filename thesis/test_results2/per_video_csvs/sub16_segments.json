@@ -1,0 +1,100 @@
+{
+  "segments": [
+    {
+      "start_frame": 75,
+      "end_frame": 195,
+      "duration_frames": 121,
+      "start_s": 2.5,
+      "end_s": 6.5,
+      "duration_s": 4.0
+    },
+    {
+      "start_frame": 195,
+      "end_frame": 300,
+      "duration_frames": 106,
+      "start_s": 6.5,
+      "end_s": 10.0,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 390,
+      "end_frame": 525,
+      "duration_frames": 136,
+      "start_s": 13.0,
+      "end_s": 17.5,
+      "duration_s": 4.5
+    },
+    {
+      "start_frame": 525,
+      "end_frame": 660,
+      "duration_frames": 136,
+      "start_s": 17.5,
+      "end_s": 22.0,
+      "duration_s": 4.5
+    },
+    {
+      "start_frame": 660,
+      "end_frame": 825,
+      "duration_frames": 166,
+      "start_s": 22.0,
+      "end_s": 27.5,
+      "duration_s": 5.5
+    },
+    {
+      "start_frame": 825,
+      "end_frame": 990,
+      "duration_frames": 166,
+      "start_s": 27.5,
+      "end_s": 33.0,
+      "duration_s": 5.5
+    },
+    {
+      "start_frame": 990,
+      "end_frame": 1136,
+      "duration_frames": 147,
+      "start_s": 33.0,
+      "end_s": 37.867,
+      "duration_s": 4.866999999999997
+    },
+    {
+      "start_frame": 1136,
+      "end_frame": 1286,
+      "duration_frames": 151,
+      "start_s": 37.867,
+      "end_s": 42.867,
+      "duration_s": 5.0
+    },
+    {
+      "start_frame": 1286,
+      "end_frame": 1421,
+      "duration_frames": 136,
+      "start_s": 42.867,
+      "end_s": 47.367,
+      "duration_s": 4.5
+    },
+    {
+      "start_frame": 1421,
+      "end_frame": 1567,
+      "duration_frames": 147,
+      "start_s": 47.367,
+      "end_s": 52.233,
+      "duration_s": 4.866
+    },
+    {
+      "start_frame": 1567,
+      "end_frame": 1702,
+      "duration_frames": 136,
+      "start_s": 52.233,
+      "end_s": 56.733,
+      "duration_s": 4.5
+    },
+    {
+      "start_frame": 1702,
+      "end_frame": 1852,
+      "duration_frames": 151,
+      "start_s": 56.733,
+      "end_s": 61.733,
+      "duration_s": 5.0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+import os
+import tensorflow as tf
+import numpy as np
+import cv2
+import tensorflow_hub as hub
+import time
+import csv
+
+os.environ["PATH"] = r"C:\Users\ADAM\miniconda3\envs\tf\Library\bin;" + os.environ["PATH"]
+
+# Disable TF32 for precision (may fix broadcastable shapes error)
+tf.config.experimental.enable_tensor_float_32_execution(False)
+print("Num GPUs Available:", len(tf.config.list_physical_devices('GPU')))
+
+# Load MoveNet model from TensorFlow Hub
+movenet = hub.load("https://tfhub.dev/google/movenet/singlepose/thunder/4")
+print("MoveNet model loaded.")
+print(movenet.signatures['serving_default'].structured_input_signature)
+
+def detect_pose(frame):
+    # Ensure the frame has 3 channels (convert BGR to RGB)
+    if frame.shape[-1] == 3:
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+    # Resize and normalize the frame for MoveNet
+    input_image = tf.image.resize_with_pad(frame, 256, 256)
+    input_image = tf.cast(input_image, dtype=tf.int32)
+    input_image = tf.expand_dims(input_image, axis=0)
+
+    # Print input shape for debugging
+    print("Input shape:", input_image.shape)  # Should be (1, 256, 256, 3)
+
+    # Pass the input tensor as a positional argument
+    outputs = movenet.signatures['serving_default'](input_image)
+    keypoints = outputs['output_0'].numpy()  # shape: [1, 1, 17, 3]
+    return keypoints[0][0]  # shape: [17, 3]
+
+def recenter_keypoints(keypoints, ref_index=6):
+    """
+    Recenter keypoints so that the keypoint at ref_index becomes the origin [0,0].
+    The input keypoints are assumed to be normalized [y, x, confidence].
+    """
+    relative_keypoints = keypoints.copy()
+    # Subtract the reference point's normalized (y,x) coordinates from all keypoints
+    relative_keypoints[:, :2] -= keypoints[ref_index, :2]
+    return relative_keypoints
+
+def calculate_angle(a, b, c):
+    """
+    Calculate the angle between three points (a, b, c).
+    a, b, c are (y, x) coordinates.
+    """
+    ba = np.array([a[0] - b[0], a[1] - b[1]])
+    bc = np.array([c[0] - b[0], c[1] - b[1]])
+    cosine_angle = np.dot(ba, bc) / (np.linalg.norm(ba) * np.linalg.norm(bc))
+    angle = np.arccos(np.clip(cosine_angle, -1.0, 1.0))
+    return np.degrees(angle)
+
+def draw_keypoints_and_angles(frame, keypoints, threshold=0.3):
+    height, width, _ = frame.shape
+
+    # Extract keypoints for right shoulder (6), elbow (8), and wrist (10)
+    right_shoulder = keypoints[6]
+    right_elbow = keypoints[8]
+    right_wrist = keypoints[10]
+
+    if right_shoulder[2] > threshold and right_elbow[2] > threshold and right_wrist[2] > threshold:
+        rs = (int(right_shoulder[1] * width), int(right_shoulder[0] * height))
+        re = (int(right_elbow[1] * width), int(right_elbow[0] * height))
+        rw = (int(right_wrist[1] * width), int(right_wrist[0] * height))
+
+        cv2.circle(frame, rs, 5, (0, 255, 0), -1)
+        cv2.circle(frame, re, 5, (0, 255, 0), -1)
+        cv2.circle(frame, rw, 5, (0, 255, 0), -1)
+        cv2.line(frame, rs, re, (255, 0, 0), 2)
+        cv2.line(frame, re, rw, (255, 0, 0), 2)
+
+        # Calculate angles using the original (absolute) keypoints
+        shoulder_angle = calculate_angle(keypoints[5][:2], keypoints[6][:2], keypoints[8][:2])
+        elbow_angle = calculate_angle(keypoints[6][:2], keypoints[8][:2], keypoints[10][:2])
+
+        cv2.putText(frame, f'Shoulder: {shoulder_angle:.1f} deg', (rs[0] - 50, rs[1] - 20),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+        cv2.putText(frame, f'Elbow: {elbow_angle:.1f} deg', (re[0] - 50, re[1] - 20),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+
+def draw_skeleton(frame, keypoints, threshold=0.3):
+    skeleton = [
+        (0, 1), (1, 2), (2, 3), (3, 4),
+        (0, 5), (5, 6), (6, 7), (7, 8),
+        (9, 10), (11, 12),
+        (5, 11), (6, 12),
+        (11, 13), (13, 15),
+        (12, 14), (14, 16)
+    ]
+    height, width, _ = frame.shape
+    for kp1, kp2 in skeleton:
+        y1, x1, c1 = keypoints[kp1]
+        y2, x2, c2 = keypoints[kp2]
+        if c1 > threshold and c2 > threshold:
+            x1, y1 = int(x1 * width), int(y1 * height)
+            x2, y2 = int(x2 * width), int(y2 * height)
+            cv2.line(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
+
+# Initialize CSV logging for pose data
+log_file = open('pose_log.csv', 'w', newline='')
+csv_writer = csv.writer(log_file)
+csv_writer.writerow(['timestamp', 'shoulder_angle', 'elbow_angle', 'shoulder_conf', 'elbow_conf'])
+
+cap = cv2.VideoCapture(0)
+if not cap.isOpened():
+    print("Error: Could not open webcam.")
+    exit()
+
+try:
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        keypoints = detect_pose(frame)
+        # Recenter keypoints so that the right shoulder (landmark 6) becomes the origin
+        relative_keypoints = recenter_keypoints(keypoints, ref_index=6)
+
+        # Use the original keypoints for drawing the skeleton on the image
+        draw_keypoints_and_angles(frame, keypoints)
+        draw_skeleton(frame, keypoints)
+
+        # Log pose data with timestamp
+        timestamp = time.time()
+        shoulder_conf = keypoints[6][2]
+        elbow_conf = keypoints[8][2]
+        shoulder_angle = (calculate_angle(keypoints[5][:2], keypoints[6][:2], keypoints[8][:2])
+                          if shoulder_conf > 0.3 else -1)
+        elbow_angle = (calculate_angle(keypoints[6][:2], keypoints[8][:2], keypoints[10][:2])
+                       if elbow_conf > 0.3 else -1)
+        csv_writer.writerow([timestamp, shoulder_angle, elbow_angle, shoulder_conf, elbow_conf])
+
+        cv2.imshow('Live Pose Estimation', frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+finally:
+    cap.release()
+    cv2.destroyAllWindows()
+    log_file.close()

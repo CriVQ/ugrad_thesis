@@ -1,0 +1,100 @@
+{
+  "segments": [
+    {
+      "start_frame": 25,
+      "end_frame": 130,
+      "duration_frames": 106,
+      "start_s": 0.833,
+      "end_s": 4.333,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 130,
+      "end_frame": 235,
+      "duration_frames": 106,
+      "start_s": 4.333,
+      "end_s": 7.833,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 310,
+      "end_frame": 400,
+      "duration_frames": 91,
+      "start_s": 10.333,
+      "end_s": 13.333,
+      "duration_s": 3.0
+    },
+    {
+      "start_frame": 400,
+      "end_frame": 520,
+      "duration_frames": 121,
+      "start_s": 13.333,
+      "end_s": 17.333,
+      "duration_s": 3.9999999999999982
+    },
+    {
+      "start_frame": 565,
+      "end_frame": 685,
+      "duration_frames": 121,
+      "start_s": 18.833,
+      "end_s": 22.833,
+      "duration_s": 4.0
+    },
+    {
+      "start_frame": 685,
+      "end_frame": 790,
+      "duration_frames": 106,
+      "start_s": 22.833,
+      "end_s": 26.333,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 790,
+      "end_frame": 910,
+      "duration_frames": 121,
+      "start_s": 26.333,
+      "end_s": 30.333,
+      "duration_s": 4.0
+    },
+    {
+      "start_frame": 920,
+      "end_frame": 1025,
+      "duration_frames": 106,
+      "start_s": 30.667,
+      "end_s": 34.167,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 1039,
+      "end_frame": 1152,
+      "duration_frames": 114,
+      "start_s": 34.633,
+      "end_s": 38.4,
+      "duration_s": 3.766999999999996
+    },
+    {
+      "start_frame": 1152,
+      "end_frame": 1257,
+      "duration_frames": 106,
+      "start_s": 38.4,
+      "end_s": 41.9,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 1257,
+      "end_frame": 1362,
+      "duration_frames": 106,
+      "start_s": 41.9,
+      "end_s": 45.4,
+      "duration_s": 3.5
+    },
+    {
+      "start_frame": 1362,
+      "end_frame": 1452,
+      "duration_frames": 91,
+      "start_s": 45.4,
+      "end_s": 48.4,
+      "duration_s": 3.0
+    }
+  ]
+}

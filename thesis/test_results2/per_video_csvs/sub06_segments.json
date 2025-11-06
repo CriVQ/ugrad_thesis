@@ -1,0 +1,44 @@
+{
+  "segments": [
+    {
+      "start_frame": 180,
+      "end_frame": 270,
+      "duration_frames": 91,
+      "start_s": 6.0,
+      "end_s": 9.0,
+      "duration_s": 3.0
+    },
+    {
+      "start_frame": 270,
+      "end_frame": 360,
+      "duration_frames": 91,
+      "start_s": 9.0,
+      "end_s": 12.0,
+      "duration_s": 3.0
+    },
+    {
+      "start_frame": 615,
+      "end_frame": 705,
+      "duration_frames": 91,
+      "start_s": 20.5,
+      "end_s": 23.5,
+      "duration_s": 3.0
+    },
+    {
+      "start_frame": 705,
+      "end_frame": 780,
+      "duration_frames": 76,
+      "start_s": 23.5,
+      "end_s": 26.0,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 780,
+      "end_frame": 870,
+      "duration_frames": 91,
+      "start_s": 26.0,
+      "end_s": 29.0,
+      "duration_s": 3.0
+    }
+  ]
+}

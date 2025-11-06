@@ -1,0 +1,68 @@
+{
+  "segments": [
+    {
+      "start_frame": 0,
+      "end_frame": 75,
+      "duration_frames": 76,
+      "start_s": 0.0,
+      "end_s": 2.5,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 75,
+      "end_frame": 148,
+      "duration_frames": 74,
+      "start_s": 2.5,
+      "end_s": 4.933,
+      "duration_s": 2.433
+    },
+    {
+      "start_frame": 148,
+      "end_frame": 223,
+      "duration_frames": 76,
+      "start_s": 4.933,
+      "end_s": 7.433,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 223,
+      "end_frame": 298,
+      "duration_frames": 76,
+      "start_s": 7.433,
+      "end_s": 9.933,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 298,
+      "end_frame": 358,
+      "duration_frames": 61,
+      "start_s": 9.933,
+      "end_s": 11.933,
+      "duration_s": 2.0
+    },
+    {
+      "start_frame": 358,
+      "end_frame": 433,
+      "duration_frames": 76,
+      "start_s": 11.933,
+      "end_s": 14.433,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 433,
+      "end_frame": 508,
+      "duration_frames": 76,
+      "start_s": 14.433,
+      "end_s": 16.933,
+      "duration_s": 2.5
+    },
+    {
+      "start_frame": 508,
+      "end_frame": 583,
+      "duration_frames": 76,
+      "start_s": 16.933,
+      "end_s": 19.433,
+      "duration_s": 2.5
+    }
+  ]
+}

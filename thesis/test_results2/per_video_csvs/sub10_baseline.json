@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "adj_elbow_deg": 76.59,
+    "adj_shFlex_deg": 111.737,
+    "adj_shAbd_deg": 152.068
+  },
+  "selected_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+}
