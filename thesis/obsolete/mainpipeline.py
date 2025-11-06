@@ -120,7 +120,7 @@ def calibrate_from_video(calib_vid, calib_json):
         cv2.destroyAllWindows()
         return None
 
-    print("📷 Get ready… Calibration starts in 15 s")
+    print("Calibration starts in 15 s")
     start = time.time()
     while time.time() - start < 15:
         disp = frame0.copy()
@@ -355,5 +355,6 @@ if __name__=="__main__":
             '--output_csv',fused_csv,
             '--fps',       str(fps)
         ], check=True)
+
 
     print("All subjects processed and fused.")
