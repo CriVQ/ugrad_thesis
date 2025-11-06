@@ -1,3 +1,6 @@
 thesis/test_results2/per_video_csvs/sub06_angles_annotated.mp4
 *.mp4
 /thesis/metrabs
+metrabs/saved_model.pb
+metrabs/variables/variables.index
+metrabs/variables/variables.data-00000-of-00001
