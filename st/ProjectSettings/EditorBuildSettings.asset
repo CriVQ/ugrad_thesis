@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1. StoneAgeScenes/Club and Fruits.unity
+    guid: eee93f158757a334595c0c0e0a83783e
+  - enabled: 1
+    path: Assets/Scenes/1. StoneAgeScenes/Axe and Wood.unity
+    guid: 0562ceda4cd05e04194f18ea40e223f4
+  - enabled: 1
+    path: Assets/Scenes/1. StoneAgeScenes/Ladder Climbing.unity
+    guid: 5dfe4202e09b7eb45a27291750caf311
+  - enabled: 1
+    path: Assets/Scenes/1. StoneAgeScenes/Slingshot Bears.unity
+    guid: 56976ba6938a0ca4580e94986a618ace
+  - enabled: 1
+    path: Assets/Scenes/2. MedievalScenes/Lifting Gate.unity
+    guid: daa3c9e36e8028148bcc8c4aaadf2c29
+  - enabled: 1
+    path: Assets/Scenes/2. MedievalScenes/Bow and Arrow.unity
+    guid: 01533c4cdbabb31439e84b51f04e50d2
+  - enabled: 1
+    path: Assets/Scenes/2. MedievalScenes/Slingshot (Medieval).unity
+    guid: 69c3f0c6f148c564b9bd6b722142f00b
+  - enabled: 1
+    path: Assets/Scenes/2. MedievalScenes/Building Wall/Collect Stones.unity
+    guid: 47308f1d1c2985e4b9488e088e6f9ed0
+  - enabled: 1
+    path: Assets/Scenes/2. MedievalScenes/Building Wall/Putting Stones.unity
+    guid: 87d108a8d72828445a076e9d84c09d17
+  - enabled: 1
+    path: Assets/Scenes/3. Space Age/Collect Orbs.unity
+    guid: e57957c67fae0bf479137713c99afcf9
+  - enabled: 1
+    path: Assets/Scenes/3. Space Age/Hit Aliens.unity
+    guid: 1bc2b8606efe7554ab6dd587419572b5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/VR_BBT.unity
+    guid: 5d3087d962d966548bda32f3456061ed
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5861c8843323b70469ab6e4102e38270, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 57c67d6c0fa12514aada192d370d213d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4afaf9223db5a1e4d97cb3a230314d02, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0638d91b68b93a743b64918871ceebca, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 6986c51c8c942854082f96ce470d02f6, type: 2}
